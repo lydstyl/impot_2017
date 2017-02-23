@@ -1,0 +1,12 @@
+body{background-color: lightgrey;text-align: center;font-family: arial}
+body * {margin: 2px auto;}
+#revenuConjoint{display: none}
+.imgBox{width: 320px}
+.imgBox img, .imgBox iframe{width: 100%;}
+@media screen and (min-width:500px){
+    .imgBox{width: auto}
+    .imgBox img, .imgBox iframe{width: 500px;}
+}
+@media screen and (min-width:960px){
+    .imgBox img, .imgBox iframe{width: 960px;}
+}
